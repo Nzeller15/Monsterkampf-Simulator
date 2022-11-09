@@ -9,10 +9,10 @@ namespace Monsterkampf_Simulator
 {
     internal class Orc : Monster 
     {
-        int HP = 0;
-        int AP = 0;
-        int DP = 0;
-        int S = 0;
+        
+        int AP = 500;
+        int DP = 500;
+        int S = 500;
 
 
         public void attackEnemy()

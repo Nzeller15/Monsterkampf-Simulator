@@ -10,10 +10,10 @@ namespace Monsterkampf_Simulator
     {
 
         
-        int HP = 0;
-        int AP = 0;  
-        int DP = 0;
-        int S = 0;
+        
+        int AP = 1000;  
+        int DP = 1000;
+        int S = 50;
 
 
         public void attackEnemy() 
