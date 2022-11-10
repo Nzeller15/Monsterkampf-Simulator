@@ -9,12 +9,14 @@ namespace Monsterkampf_Simulator
 {
     internal class Monster
     {
-        public void takeDamage()
-        {
+
+
+        public int attackPoints;
+        public int defensePoints;
+        public int attackSpeed;
 
 
 
-        }
         public void attackEnemy()
         {
 

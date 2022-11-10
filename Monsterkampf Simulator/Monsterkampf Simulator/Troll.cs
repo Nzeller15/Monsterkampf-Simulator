@@ -9,11 +9,9 @@ namespace Monsterkampf_Simulator
     internal class Troll: Monster
     {
 
+
+
         
-        
-        int AP = 1000;  
-        int DP = 1000;
-        int S = 50;
 
 
         public void attackEnemy() 
