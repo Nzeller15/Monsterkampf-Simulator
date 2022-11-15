@@ -8,7 +8,7 @@ namespace Monsterkampf_Simulator
     internal class Program
     {
 
-
+       
         static void Main(string[] args)
         {
           Orc orc1 = new Orc();
