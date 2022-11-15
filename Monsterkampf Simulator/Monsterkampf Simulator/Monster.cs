@@ -11,9 +11,12 @@ namespace Monsterkampf_Simulator
     {
 
 
-        public int attackPoints;
-        public int defensePoints;
-        public int attackSpeed;
+        public float ntattackPoints;
+        public float defensePoints;
+        public float attackSpeed;
+        public float healthPoints;
+
+        //Default Constructor
 
 
 
