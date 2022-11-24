@@ -11,22 +11,6 @@ namespace Monsterkampf_Simulator
 
 
 
-        
-
-
-        public void attackEnemy() 
-        { 
-        
-        
-        
-        
-        }
-        public override void Die()
-        {
-
-            Console.WriteLine("This Troll Died");
-
-
-        }
+     
     }
 }

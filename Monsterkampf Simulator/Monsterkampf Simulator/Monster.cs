@@ -11,7 +11,7 @@ namespace Monsterkampf_Simulator
     {
 
 
-        public float ntattackPoints;
+        public float attackPoints;
         public float defensePoints;
         public float attackSpeed;
         public float healthPoints;
@@ -20,24 +20,23 @@ namespace Monsterkampf_Simulator
 
 
 
-        public void attackEnemy()
+        public Monster()
         {
 
 
 
         }
-        public virtual void Scream()
+        public Monster(int _value)
         {
-            Console.WriteLine("Screaming");
+            Console.WriteLine("Value: " + _value);
+        }
+
+        public virtual void Attack(Monster _defendingMonster) //Attack methode erstellen
+        {
+            float damage = attackPoints - _defendingMonster.defensePoints;
+            _defendingMonster.healthPoints = _defendingMonster.healthPoints - damage;
 
         }
-        public virtual void Die()
-        {
-
-            Console.WriteLine("This entity died");
-
-        }
-        
     }       
 }
 
